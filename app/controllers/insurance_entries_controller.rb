@@ -11,7 +11,7 @@ class InsuranceEntriesController < ApplicationController
   end
   
   def create
-    @entry = InsuranceEntries.new(:insurance_company => params[:insurance_company],:surgery_code => params[:surgery_code], :is_approved => params[:is_approved])
+    @entry = InsuranceEntries.new(:insurance_company => params[:insurance_company].upcase,:surgery_code => params[:surgery_code], :is_approved => params[:is_approved])
     if @entry.save
       flash[:notice] = "Added new Entry"
       redirect_to "/insurance_entries/new"
@@ -37,7 +37,7 @@ class InsuranceEntriesController < ApplicationController
   end
   
   def list
-    @entries = InsuranceEntries.all
+    @entries = InsuranceEntries.order("insurance_company ASC", "surgery_code ASC")
   end
   
   def delete
