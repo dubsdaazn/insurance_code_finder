@@ -9,5 +9,7 @@ rails.png: rails-e19cc14e7b458337c25b4a0b230d6cac.png
 rails/index.png: rails-e19cc14e7b458337c25b4a0b230d6cac.png
 application.js: application-bfb2cfdf6841527f225f2a371b0925a3.js
 application/index.js: application-bfb2cfdf6841527f225f2a371b0925a3.js
-application.css: application-17aefb02ece67a3bdd6bacf9f0e0acc3.css
-application/index.css: application-17aefb02ece67a3bdd6bacf9f0e0acc3.css
+application.css: application-0689362d96442f82879569f450c1ddbf.css
+application/index.css: application-0689362d96442f82879569f450c1ddbf.css
+insurance_entries.css: insurance_entries-62330357f4aabaead371458b68fb860a.css
+insurance_entries/index.css: insurance_entries-62330357f4aabaead371458b68fb860a.css
