@@ -12,7 +12,7 @@
   %p
     =label_tag "Approved?"
     =check_box_tag "is_approved", nil, params[:is_approved] ? true : false
-    =hidden_field_tag "is_approved", params[:is_approved] ? true : false
+    =hidden_field_tag "old_is_approved", params[:is_approved] ? true : false
     
   %p 
     =submit_tag "Update"

@@ -1,7 +1,9 @@
 class InsuranceEntriesController < ApplicationController
   include InsuranceEntriesHelper
+  
   def index
-    @insurance_entries = @insurance_entries.nil? ? [] : insurance_company_list.uniq!
+    @company_list = insurance_company_list.nil? ? [] : insurance_company_list
+
   end
   
   def new
