@@ -1,0 +1,23 @@
+
+%html
+%head
+  %title= "InsuranceCodeFinder"
+  = stylesheet_link_tag "application", :media => "all"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+%body
+  %div#header
+    %div#logo
+      %h1
+        %a{:href => "#"} Minho Kim
+      %p
+        ="Insurance Approver Pro"
+  %div#menu
+    %ul
+      %li
+        %a{:href => "index"}= "Search"
+      %li
+        %a{:href => "list"}= "List"
+      %li
+        %a{:href => "new"}= "Add"
+  = yield 

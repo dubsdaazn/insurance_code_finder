@@ -1,0 +1,27 @@
+-if flash[:notice]
+  %p.notice
+    =flash[:notice]
+%table
+  %tbody
+    %tr
+      %th
+        ="Insurance"
+      %th
+        ="Surgery Code"
+      %th
+        ="Approved"
+      %th
+        ="Modify"
+    -@entries.each do |x|
+      %tr.center
+        %td
+          =x.insurance_company
+        %td
+          =x.surgery_code
+        %td
+          =x.is_approved ? "YES" : "NO"
+        %td
+          %p
+            =link_to "Delete", "/insurance_entries/delete?insurance_company=#{x.insurance_company}&surgery_code=#{x.surgery_code}"
+            =" | "
+            =link_to "Edit", "/insurance_entries/update?insurance_company=#{x.insurance_company}&surgery_code=#{x.surgery_code}"

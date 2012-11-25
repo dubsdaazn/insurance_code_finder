@@ -1,7 +1,17 @@
 InsuranceCodeFinder::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
-
+  get '/insurance_entries/index' => 'insurance_entries#index'
+  get '/insurance_entries/search' => 'insurance_entries#search'
+  get '/insurance_entries/create' => 'insurance_entries#create'
+  get '/insurance_entries/add' => 'insurance_entries#add'
+  get '/insurance_entries/new' => 'insurance_entries#new'
+  get '/insurance_entries/list' => 'insurance_entries#list'
+  get '/insurance_entries/delete' => 'insurance_entries#delete'
+  get '/insurance_entries/update' => 'insurance_entries#update'
+  get '/insurance_entries/update_entry' => 'insurance_entries#update_entry'
+  
+  
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
