@@ -25647,3 +25647,71 @@ Processing by InsuranceEntriesController#list as HTML
   [1m[36mInsuranceEntries Load (0.4ms)[0m  [1mSELECT "insurance_entries".* FROM "insurance_entries" [0m
   Rendered insurance_entries/list.haml within layouts/application (3.3ms)
 Completed 200 OK in 61ms (Views: 8.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/insurance_entries/index" for 127.0.0.1 at 2012-11-24 20:19:06 -0500
+Connecting to database specified by database.yml
+Processing by InsuranceEntriesController#index as HTML
+  Rendered insurance_entries/index.haml within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:06 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/insurance_entries.css?body=1" for 127.0.0.1 at 2012-11-24 20:19:06 -0500
+Served asset /insurance_entries.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:06 -0500
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/insurance_entries.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:06 -0500
+Served asset /insurance_entries.js - 304 Not Modified (2ms)
+
+
+Started GET "/insurance_entries/new" for 127.0.0.1 at 2012-11-24 20:19:08 -0500
+Processing by InsuranceEntriesController#new as HTML
+  Rendered insurance_entries/new.haml within layouts/application (3.1ms)
+Completed 200 OK in 29ms (Views: 7.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/insurance_entries.css?body=1" for 127.0.0.1 at 2012-11-24 20:19:08 -0500
+Served asset /insurance_entries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:09 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/insurance_entries.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:09 -0500
+Served asset /insurance_entries.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-24 20:19:09 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/insurance_entries/list" for 127.0.0.1 at 2012-11-24 20:20:40 -0500
+Processing by InsuranceEntriesController#list as HTML
+  [1m[36mInsuranceEntries Load (0.2ms)[0m  [1mSELECT "insurance_entries".* FROM "insurance_entries" [0m
+  Rendered insurance_entries/list.haml within layouts/application (3.3ms)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/insurance_entries.css?body=1" for 127.0.0.1 at 2012-11-24 20:20:40 -0500
+Served asset /insurance_entries.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-11-24 20:20:40 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-11-24 20:20:40 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/insurance_entries.js?body=1" for 127.0.0.1 at 2012-11-24 20:20:40 -0500
+Served asset /insurance_entries.js - 304 Not Modified (0ms)

@@ -3,6 +3,7 @@ InsuranceCodeFinder::Application.configure do
 
   # Code is not reloaded between requests
   config.cache_classes = true
+  config.assets.precompile += %w( insurance_entries.css  )
 
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
